@@ -1,4 +1,5 @@
 resource "aws_s3_bucket" "b" {
+  bucket = var.bucket_name
   bucket_prefix = var.bucket_prefix
   acl    = var.acl
 
