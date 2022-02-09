@@ -1,7 +1,7 @@
 variable "bucket_name" {
-    type        = string
-    description = "(required since we are not using 'bucket') Creates a unique bucket name beginning with the specified prefix. Conflicts with bucket."
-    default     = ""
+#    type        = string
+#    description = "(required since we are not using 'bucket') Creates a unique bucket name beginning with the specified prefix. Conflicts with bucket."
+#    default     = ""
 }
 
 variable "acl" {
@@ -17,9 +17,9 @@ variable "versioning" {
 }
 
 variable "target_bucket" {
-    type        = string
-    description = "(Required) The name of the bucket that will receive the log objects."
-    default     = ""
+#    type        = string
+#    description = "(Required) The name of the bucket that will receive the log objects."
+#    default     = ""
 }
 
 variable "target_prefix" {
